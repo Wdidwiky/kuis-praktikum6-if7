@@ -33,15 +33,18 @@ a {
     
 }
 
-.theme-toggler {
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    color: #fff;
-    cursor: pointer;
-    z-index: 1;
+.theme-switch-wrapper {
+    display: flex;
+    align-items: center;
 }
 
+em {
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+
+
+  
 .theme-toggler.active {
     color: #fff;
 }
@@ -150,7 +153,7 @@ button#equal {
     color: #fefefe;
   }
 
-  .calculator.dark button#clear2 {
+  .calculator.dark button#backspace {
     background-color: #636060;
     color: #fefefe;
   }
