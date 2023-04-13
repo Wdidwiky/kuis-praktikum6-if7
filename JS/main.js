@@ -13,7 +13,6 @@ function ubah1() {
   dis.style.marginBottom = "10px";
   dis1.style.height = "65px";
   dis2.style.fontSize = "32px";
-  dis2.style.color = "white";
  }
 
  function ubah2() { 
