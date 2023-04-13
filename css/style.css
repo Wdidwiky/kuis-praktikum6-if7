@@ -108,7 +108,7 @@ button#equal {
 /* light theme */
 
 .calculator {
-    background-color: #fff;
+    background-color: #e2e2e2;
 }
 
 .calculator #display {
@@ -116,7 +116,7 @@ button#equal {
 }
 
 .calculator button#clear {
-    background-color: #dedede;
+    background-color: #cccbcb;
     color: #000;
 }
 
