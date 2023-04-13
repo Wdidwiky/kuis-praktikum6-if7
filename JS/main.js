@@ -5,7 +5,7 @@ const buttons = document.querySelectorAll("button");
 var dis = document.getElementById('display1');
 var dis1 = document.getElementById('display');
 var dis2 = document.getElementById('display2');
-var dis2 = document.getElementById('display3');
+var temp ;
 var check = 0 ;
 
 function ubah1() { 
@@ -48,10 +48,18 @@ buttons.forEach((item) => {
       else if (display.innerText != "" && item.id == "equal") {
         check = 1;
         ubah1();
+      } else if (display.innerText != "" && item.id == "%") {
+        temp = display.innerText;
+        display.innerText = eval(display.innerText);
+        display.innerText /= 100;
+        display2.innerText = "= " + display.innerText;
+        display.innerText = temp + "%";
+        ubah1();
+        check = 1;
       } else if (display.innerText == "" && item.id == "equal") {
         display.innerText = "Empty!";
         setTimeout(() => (display.innerText = ""), 2000);
-      } else if (item.id != "equal" || item.id ){ 
+      } else if (item.id != "equal" || item.id != "%" ){ 
         if (check == 1){
           ubah2();
           ubah3();
