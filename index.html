@@ -5,9 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+   
     <title>Title</title>
+    
 </head>
 <body>
+    <div class="theme-switch-wrapp">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox"/>
+            <div class="slider round">
+            </div>
+      </label>
+      <em>Enable Dark Mode!</em>
+    </div>
+
     <div class="container">
         <div class="calculator dark">
             <div class="display-screen">
@@ -16,11 +27,12 @@
                 <div id="display1"></div>
                 <div id="display2"></div>
             </div>
+
             <div class="buttons">
                 <table>
                     <tr>
                         <td><button class="btn-operator" id="clear">AC</button></td>
-                        <td><button class="btn-operator" id="clear2"><</button></td>
+                        <td><button class="btn-operator" id="backspace"><</button></td>
                         <td><button class="btn-operator" id="%">&percnt;</button></td>
                         <td><button class="btn-operator" id="/">&divide;</button></td>
                     </tr>
@@ -49,9 +61,9 @@
                     </tr>
                 </table>
             </div>
-            
         </div>
     </div>
     <script src="js/main.js"></script>
+    
 </body>
 </html>
