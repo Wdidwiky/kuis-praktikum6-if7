@@ -110,7 +110,7 @@ a {
 }
 #display1::-webkit-scrollbar {
   display: block;
-  height: 3px;
+  height: 1px;
 }
 
 button {

@@ -5,6 +5,7 @@ const buttons = document.querySelectorAll("button");
 var dis = document.getElementById('display1');
 var dis1 = document.getElementById('display');
 var dis2 = document.getElementById('display2');
+var dis2 = document.getElementById('display3');
 var check = 0 ;
 
 function ubah1() { 
