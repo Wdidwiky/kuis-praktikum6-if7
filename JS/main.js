@@ -1,9 +1,9 @@
-function setDarkMode(isDark){
-    if(isDark){
-        document.body.setAttribute('class', 'calculator.dark')
-        localStorage.setItem('theme', 'dark')
-    }else{
-        document.body.setAttribute('class', '')
-        localStorage.setItem('theme')
-    }
-}
+// Dark mode
+const themeToggleBtn = document.querySelector("#checkbox");
+const calculator = document.querySelector(".calculator");
+
+themeToggleBtn.onclick = () => {
+  calculator.classList.toggle("dark");
+  themeToggleBtn.classList.toggle("active");
+};
+

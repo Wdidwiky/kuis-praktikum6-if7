@@ -8,6 +8,7 @@
 
 body {
     font-family: sans-serif;
+    background-color: #1e1e1e;
 }
 
 a {
@@ -27,6 +28,8 @@ em {
     margin-left: 10px;
     font-size: 1rem;
     margin-top: 8px;
+    color: #fefefe;
+    
   }
 
   .theme-switch {
@@ -86,6 +89,7 @@ em {
     width: 100vw;
     display: grid;
     place-items: center;
+    
 }
 
 .calculator {
@@ -96,30 +100,6 @@ em {
     border-radius: 33px;
     
 }
-
-
-
-
-  
-/* .theme-toggler.active {
-    color: #fff;
-}
-
-.theme-toggler.active::before {
-    background-color: #fff;
-}
-
-.theme-toggler::before {
-    content: '';
-    height: 30px;
-    width: 30px;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    background-color: #333;
-    z-index: -1;
-} */
 
 #display {
     margin: 0 10px;
@@ -162,6 +142,7 @@ button#equal {
 
 .calculator {
     background-color: #ffffff;
+    
 }
 
 .calculator #display {
